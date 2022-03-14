@@ -13,7 +13,7 @@ public class BotonIcono  extends JButton implements Serializable{
 		BotonIcono(String texto, String path){
 			super();
 			this.setIcon(new ImageIcon(path));
-			this.setTextffff(texto);
+			this.setText(texto);
 			this.setSize(25,160);
 			this.setHorizontalAlignment(LEFT);
 			this.setVisible(true);
